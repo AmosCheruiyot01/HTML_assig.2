@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>form input types</h2>
+
+    <form action="">
+      <h3>text</h3>
+      <label for="fname">first name</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Amos"
+        maxlength="10"
+        autocomplete="address-level1"
+      /><br />
+
+      <label for="second name">second name</label><br />
+      <input
+        type="text"
+        id="second_name"
+        maxlength="20"
+        placeholder="cheruiyot"
+      />
+      <br />
+      <h3>radio</h3>
+
+      <input type="radio" id="css" name="fev_language1" value="css" />
+      <label for="css">css</label><br />
+
+      <input
+        type="radio"
+        id="javascript"
+        name="fev_language2"
+        value="javascript"
+      />
+      <label for="javascript">javascript</label><br />
+
+      <input type="radio" id="html" name="fev_language3" value="html" />
+      <label for="html">html</label><br />
+
+      <h3>checkbox</h3>
+      <input type="checkbox" id="web1" name="website1" value="chrome" />
+      <label for="chrome">chrome</label>
+      <br />
+
+      <input type="checkbox" id="web2" name="website2" value="edge" />
+      <label for="edge">edge</label>
+      <br />
+      <input type="checkbox" id="web3" name="website3" value="firefox" />
+      <label for="firefox">firefox</label>
+      <br />
+
+      <h3>date</h3>
+      <label for="start">Start date:</label>
+
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01"
+        max="2018-12-31"
+      />
+      <br />
+
+      <h3>email</h3>
+      <label for="email">Enter your @jitu.com email:</label>
+
+      <input
+        type="email"
+        id="email"
+        pattern="@thejitu.com"
+        size="30"
+        required
+      />
+      <br />
+
+      <h3>password</h3>
+      <label for="pass">Password (8 characters minimum):</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        minlength="8"
+        required
+      /><br />
+
+      <input type="submit" value="Sign in" />
+    </form>
+  </body>
+</html>
